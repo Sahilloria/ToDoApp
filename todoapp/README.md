@@ -1,3 +1,6 @@
+# How to run this app?
+The backend API is created by using express.js, node.js and MYSQL in the database, so in the backend we ned to use our credentials to connect with database.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
