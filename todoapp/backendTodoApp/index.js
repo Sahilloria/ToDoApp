@@ -6,8 +6,10 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
+
+// here you need to enter your credentials to connect with databse
 const db = mySQL.createConnection({
-    host: "localhost",
+    host: "localhost",  
     password: "xxxxx",
     database: "xxxx",
     user: "xxxx"
