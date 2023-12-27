@@ -1,0 +1,101 @@
+.box-section {
+    background-color: #353434;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 20px;
+    width: 45vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 2%;
+    text-align: left;
+}
+
+.box-section h1 {
+    color: rgb(22, 222, 119);
+    font-size: 2vw;
+
+}
+
+.input-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(203, 198, 198);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.input {
+    border-radius: 4px;
+    outline: none;
+    padding: 12px 6px;
+    border: none;
+    width: 250px
+}
+
+.input:focus {
+    outline: 2px solid rgb(0, 230, 122)
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-item label {
+    color: aliceblue;
+    padding: 8px 2px;
+    font-size: large;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(22, 222, 119);
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+.list-heading{
+    color:rgb(22, 222, 119);
+    font-size: 1.5em;
+}
+.todo-list{
+    height: 90%;
+    overflow: auto;
+}
+.todo-list button {
+    padding: 8px
+}
+section{
+    overflow: hidden;
+}
+
+.new-item {
+    display: flex;
+    background-color: #414040;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgb(39, 38, 38)
+}
+
+.new-item h3 {
+    color: rgb(22, 222, 119);
+    margin-bottom: 0px
+}
+
+.new-item p {
+    margin-top: 5px;
+    color: #b2a6a6;
+    ;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+    background:rgb(15 158 84) ;
+}
