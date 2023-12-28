@@ -7,12 +7,12 @@ app.use(express.json())
 app.use(cors())
 
 
-// here you need to enter your credentials to connect with databse
+// here you need to enter your credentials to connect with
 const db = mySQL.createConnection({
     host: "localhost",  
-    password: "xxxxx",
-    database: "xxxx",
-    user: "xxxx"
+    password: "Sanadogra@1",
+    database: "todoapp",
+    user: "root"
 });
 
 app.get("/todolist", (req, res) => {
